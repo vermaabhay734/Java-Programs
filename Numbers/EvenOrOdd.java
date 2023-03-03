@@ -8,7 +8,8 @@ public class EvenOrOdd {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         if(num<=0){
-            System.out.println("Invalid number: "+num);
+            //System.out.println("Invalid number: "+num);
+            throw new IllegalArgumentException("Invalid number: "+num);
         }
         else{
             if(num%2 == 0){
