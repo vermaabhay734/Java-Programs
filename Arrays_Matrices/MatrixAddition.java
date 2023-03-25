@@ -2,8 +2,6 @@ package Arrays_Matrices;
 
 import java.util.Scanner;
 
-import javax.swing.plaf.synth.SynthScrollBarUI;
-
 public class MatrixAddition {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
