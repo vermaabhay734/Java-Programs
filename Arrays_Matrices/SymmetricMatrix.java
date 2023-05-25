@@ -48,9 +48,9 @@ public class SymmetricMatrix {
                 }
             }
             if(flag){
-                System.out.println("Symmetric Matrix.");
+                System.out.println("Yes, it is Symmetric Matrix.");
             }else{
-                System.out.println("Asymmetric Matrix.");
+                System.out.println("It is Asymmetric Matrix.");
             }
         }
         sc.close();
@@ -71,5 +71,5 @@ Transpose Matrix is:
 1 2 1
 2 1 2
 1 2 1
-Symmetric Matrix. 
+Symmetric Matrix.
 */
