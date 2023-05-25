@@ -32,7 +32,7 @@ public class MatrixRowSwap {
         int swaprow2 = sc.nextInt();
 
         int temp = 0; 
-        for(int i=0; i<row; i++){
+        for(int i=0; i<col; i++){
             temp = a[swaprow1-1][i];
             a[swaprow1-1][i] = a[swaprow2-1][i];
             a[swaprow2-1][i] = temp;
